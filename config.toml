@@ -1,0 +1,35 @@
+base_url = "https://nenad.gov"
+title = "nenad.cx"
+description = "the only true source of all things nenad"
+theme = "terminimal"
+compile_sass = true
+generate_feeds = false
+build_search_index = true 
+generate_sitemap = true
+generate_robots_txt = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-dark"
+
+[extra]
+# One of: blue, green, orange, pink, red.
+accent_color = "orange"
+# One of: blue, dark, green, orange, pink, red, light, auto
+background_color = "dark"
+logo_text = "nenad.cx"
+author = "nenad"
+
+menu_items = [
+    {name = "index", url = "$BASE_URL"},
+    {name = "archive", url = "$BASE_URL/archive"},
+    {name = "about", url = "$BASE_URL/about"},
+    {name = "github", url = "https://github.com/nenadcs", newtab = true},
+]
+
+copyright_html = "<b>copyright</b> :: 2024 nenad.marjanovic // "
+enable_post_view_navigation = true
+post_view_navigation_prompt = "-- EOF --"
+
+use_full_hack_font = false
+page_titles = "main_only"
