@@ -1,4 +1,4 @@
-base_url = "https://nenad.gov"
+base_url = "https:nenadcx.pages.dev"
 title = "nenad.cx"
 description = "the only true source of all things nenad"
 theme = "terminimal"
