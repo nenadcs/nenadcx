@@ -1,4 +1,4 @@
-base_url = ""
+base_url = "https://nenadcx.pages.dev"
 title = "nenad.cx"
 description = "the only true source of all things nenad"
 theme = "terminimal"
@@ -21,9 +21,9 @@ logo_text = "nenad.cx"
 author = "nenad"
 
 menu_items = [
-    {name = "index", url = "$BASE_URL"},
-    {name = "archive", url = "$BASE_URL/archive"},
-    {name = "about", url = "$BASE_URL/about"},
+    {name = "index", url = "/"},
+    {name = "archive", url = "/archive"},
+    {name = "about", url = "/about"},
     {name = "github", url = "https://github.com/nenadcs", newtab = true},
 ]
 
